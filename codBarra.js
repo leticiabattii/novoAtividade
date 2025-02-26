@@ -28,10 +28,11 @@ function extrairInformacoes(ean) {
     let codigoProduto = ean.substring(7, 12);
     let digitoVerificador = ean[12];
 
-    console.log("País de Origem: ${paisDeOrigem}");
-    console.log("Código do Fabricante: ${codigoFabricante}");
-    console.log("Código do Produto: ${codigoProduto}");
-    console.log("Dígito Verificador: ${digitoVerificador}");
+    console.log(`País de Origem: ${paisDeOrigem}`);
+    console.log(`Código do Fabricante: ${codigoFabricante}`);
+    console.log(`Código do Produto: ${codigoProduto}`);
+    console.log(`Dígito Verificador: ${digitoVerificador}`);
+
 }
 
 let codigoEAN = "5431230567806";
